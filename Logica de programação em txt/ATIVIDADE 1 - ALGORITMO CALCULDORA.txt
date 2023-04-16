@@ -1,0 +1,33 @@
+Algoritmo de SOMA
+
+Variavel: X --> Primeiro numero solicitado na linha 1
+Variavel: Y --> Segundo numero solicitado na linha 2
+Variavel: Z --> Resultado da soma das variaveis (x + y)
+
+1- Solicite um numero!
+2- Verifique se e um numero e não uma letra 
+3- Se for uma letra, informe ao usuario 'Apenas numeros! Ex: 1, 2, 9, 22', retorne para linha 1
+4- Verifique se e um numero natural
+5- Se for um numero real, informe ao usuario 'Apenas numero reais! Ex: 1, 2, 9, 22, retorne para linha 1
+6- Verifique se não a caracteres especiais, informe ao usuario 'Apenas numeros!  Ex: 1, 2, 9, 22' retorne para linha 1
+7- Verificar numero informado pelo usuario
+8- Trocar variavel X pelo numero informado, pelo usuario!
+
+9- Solicite o segundo numero!
+10- Verifique se e um numero e não uma letra 
+11- Se for uma letra, informe ao usuario 'Apenas numeros! Ex: 1, 2, 9, 22', retorne para linha 1
+12- Verifique se e um numero natural
+13-Se for um numero real, informe ao usuario 'Apenas numero reais! Ex: 1, 2, 9, 22, retorne para linha 1
+14- Verifique se não a caracteres especiais, informe ao usuario 'Apenas numeros!  Ex: 1, 2, 9, 22' retorne para linha 1
+15- Verificar numero informado pelo usuario
+16- Trocar variavel Y pelo numero informado, pelo usuario!
+
+17- Some a X + Y
+18- Resultado = Z
+19- Mostre para o usuario o valor de Z
+
+20- Pergunte o usuario 'Deseja fazer outra soma?'
+21- Digite: 'Sim' ou 'Não'
+22- Se 'Sim', retorne para linha 1
+23- Se 'Não', Finalize o sistema!
+

@@ -1,0 +1,27 @@
+// Algoritimo para contar moedas!
+
+
+1- Checar energia, sensor, banco de dados
+2- Iniciar sistema
+- Checar dados das moedas, salvas no sistema
+3- Checar se existe alguma moeda dentro do dispositivo
+4- caso não tenha aguarde ser inserida alguma moeda
+5- moeda inserida
+6- Checar tamanho
+7- Buscar no banco de dados, moeda com mesmo tamanho
+- classificar moeda
+8- Contabilizar valor da moeda, de acordo com dados recebidos
+9- Mostrar ao usuario
+
+
+=============================================================
+
+Objetos:
+-Moeda
+-Impressão
+
+-Propriedades:
+-Medidas
+-Contar
+-Classificar
+-Imprimir

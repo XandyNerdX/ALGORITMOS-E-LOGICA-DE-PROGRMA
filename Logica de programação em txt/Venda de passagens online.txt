@@ -1,0 +1,89 @@
+Venda de passagens Online! 
+
+
+1- Verificar sistema, banco de dados, rede, algoritmo, rede!
+2- Iniciar sistema
+
+3- Solicite ao usuário CPF
+4- Verifique se a um cadastro no sistema
+
+5- Cadastre o usuário no sistema
+6- Solicite Nome completo
+7- Solicite RG
+8- Solicite CPF
+9- Solicite Data de Nascimento
+
+10- Se for um usuário cadastrado prossiga! 
+
+11- Solicite o Estado partida e estado
+12- Solicite ao usuário o CEP 
+13- Verifique se o usuário digitou 8 números
+14- Busque esse cep no banco de dados do correios
+15- Verifique se o cep bate com estado e cidade!
+16- Se for um cep inválido, informe ao usuário: 'CEP não encontrado, digite novamente!', retorne a linha 3
+17- Busque no banco de dados, locais de embarque, usando as informações do correio, e através do cep (Através do cep é possível, saber a rua, cidade, estado)
+
+18- Retorne ao usuário, os locais de embarque! 
+
+19- Se não houver locais de embarque próximos, informe: 'Não há locais de embarque próximos!'
+20- Se houver mais de um local de embarque próximo
+21- Solicite ao usuário, escolher alguma das opções! 
+22- Verifique se esse usuário, selecionou alguma das opções
+23- Aguarde ele selecionar alguma opção! 
+24- Solicite ele confirmar
+25- Aguarde pela confirmação
+
+26- Se houver apenas um local de embarque
+27- Mostre ao usuário, local de embarque disponível
+28- Solicitar que ele pressione botão de confirmação
+29- Aguarde pela confirmação
+
+30- Solicite o Estado partida e estado
+31- Solicite ao usuário o CEP 
+32- Verifique se o usuário digitou 8 números
+33- Busque esse cep no banco de dados do correios
+34- Verifique se o cep bate com estado e cidade!
+35- Se for um cep inválido, informe ao usuário: 'CEP não encontrado, digite novamente!', retorne a linha 3
+36- Busque no banco de dados, locais de embarque, usando as informações do correio, e através do cep (Através do cep é possível, saber a rua, cidade, estado)
+
+37- Retorne ao usuário, os locais de embarque! 
+
+38- Se não houver locais de embarque próximos, informe: 'Não há locais de embarque próximos!'
+39- Se houver mais de um local de embarque próximo
+40- Solicite ao usuário, escolher alguma das opções! 
+41- Verifique se esse usuário, selecionou alguma das opções
+42- Aguarde ele selecionar alguma opção! 
+43- Solicite ele confirmar
+44- Aguarde pela confirmação
+
+45- Se houver apenas um local de embarque
+46- Mostre ao usuário, local de embarque disponível
+47- Solicitar que ele pressione botão de confirmação
+48- Aguarde pela confirmação
+
+49- Trace o trajeto, envie para o servidor da empresa
+50- Busque no banco de dados, os ônibus que realiza esse trajeto
+51- Busque horários e datas que esse ônibus irá realizar esse trajeto
+52- Mostre ao usuário, os ônibus disponíveis, para esse trajeto
+53- Verifique se o usuário, selecionou algum onibus
+54- Aguarde, ele selecionar
+55- Armazenar o na memória cache do servidor, o ônibus selecionado
+56- Verificar horários de partida desse ônibus
+57- Informar ao usuário os horários de partida desse ônibus
+58- Verifique se o usuário, selecionou algum horário
+59- Aguarde ele selecionar alguma opção
+60- Salve essa informação no banco de dados
+
+61- Gere um código, único para o ticket
+62- Armazenar no banco de dados, o código, horário, local de embarque e desembarque, nome do usuário, rg!
+
+63- Mostre ao usuário, seu tick, dados, local de embarque e desembarque! 
+64- Peça ao usuário, confirmar os dados
+65- Aguardado ele selecionar o botão 'Confirmar'
+66- Após confirmar, valide o código no sistema da empresa!
+67- Informe ao usuário: 'Passagem gerada com sucesso,favor comparecer no local de embarque (LOCAL DE EMBARQUE), no horário (HORÁRIO)! Agradecemos a preferência!'
+
+68- Verifique se o usuário, deseja comprar mais uma passagem, ou finalizar
+
+69- Se deseja comprar mais passagem, retorne a linha 11
+70- Se não, finalize! 

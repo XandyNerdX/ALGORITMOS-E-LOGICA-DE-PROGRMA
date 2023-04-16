@@ -1,0 +1,151 @@
+﻿ALGORITMOS E LÓGICA DE PROGRAMAÇÃO
+PROF: AUGUSTO ZADRA
+SEMESTRE 01 / 2023
+VA 01 - 15 PONTOS
+-------------------------------------------------------------------
+NOME: Alexandre Silva Ferreira / 
+Izabela Turci Chaves
+
+
+-------------------------------------------------------------------
+RESPOSTAS:
+QUESTÃO 01: 
+
+
+Algoritmo que calcula os dias de vida!
+
+
+
+
+Variáveis:
+Nome do usuario: N
+Data de nascimento: DN
+Anos: A
+Dias de vida: DV
+Data atual: DA
+
+
+
+
+1        Iniciar o algoritmo
+2         Verifique a data atual
+2.1         Armazena no banco de dados a data atual (Variável DA)
+3        Solicite o usuário o seu nome 
+4        Armazene no banco de dados o nome do usuario (variável N)
+5         Caso não informe o nome,ou use caracteres especiais, indique erro “Nome invalido”,    retorne linha “03” 
+6        Solicite ao usuário sua data de nascimento 
+7        armazene no banco de dados sua idade (Variável DN)
+8        Caso não informe data válida, caracteres especiais, letras, indique erro “Data inválida", retorne linha “06”
+9        Calcule: DA - DN = A
+10        Calcule: A * 365 = DV
+11        Mostre uma mensagem: “Nome do usuario: ‘N’)
+12        Mostre uma mensagem: “Dias de vida: ‘DV’)
+13         Caso queira realizar outro cálculo, retorne para linha 03
+14         Finalize o sistema! 
+
+
+QUESTÃO 02:
+
+
+Calcula o valor da Hipotenusa! 
+
+
+Variável:
+HIPOTENUSA: A
+Cateto 1:  B
+Cateto 2: C
+* Iniciar sistema
+* Solicite o valor do cateto: “Exemplo 10,11, 13, 25” → Cateto 1: B
+* Verifique se é um número válido, acuse o erro: “Apenas números!", retorne para linha “02”
+* Solicite o valor do cateto: “Exemplo 10,11, 13, 25” → Cateto 2: C
+*  Verifique se é um número válido, acuse o erro: “Apenas números!", retorne para linha “04”
+* Calcule usando as variáveis: A^2 = B^2 + C^2
+* A → Hipotenusa 
+* Mostrar ao usuário valor da Hipotenusa: (Valor de A)
+* Caso queira realizar outro cálculo, retorne para linha 02
+* Finalize o sistema.
+
+
+
+
+
+
+---------------------------------------------------
+QUESTÃO 03:
+
+
+Operações aritméticas!
+
+
+Variáveis: 
+X
+Y
+Z
+
+
+* Iniciar sistema, busque na biblioteca operações aritméticas, e adicione ao sistema
+* Mostre a mensagem: “Informe um número” → variável X
+* Aguarde o número
+* Acuse erro, caso não seja um número válido, retorne para linha “02”
+* Mostre as opções de cálculo: “+, -, * e /”
+* Solicite ao usuário que escolha alguma das opções da linha 04
+* Mostre a mensagem: “Informe um número” → variável Y
+* Aguarde o número 
+* Acuse erro, caso não seja um número válido, retorne para linha “08”
+* Se o usuário solicitar:
+* Soma, então faça:
+* * X + Y = Z
+* Subtração, então faça:
+* X - Y = Z
+* Multiplicação, então faça: 
+* X * Y = Z
+* Divisão, então faça:
+* X / Y = Z
+* Faça a operação solicitada pelo usuário 
+* Mostre o valor da operação:  Z
+* Pergunte ao usuário se ele deseja realizar outro cálculo, caso queira retorne para linha 02; se não finalize 
+---------------------------------------------------
+QUESTÃO 04:
+
+
+Variável 
+X: 5
+Y: 18
+Z
+
+
+* Inicie o sistema
+* Informe o valor de X
+* Informe o valor de Y
+* Jogue o valor  de X para Z
+* Jogue o valor de Y para X
+* Jogue o valor de Z para Y
+* Informe para o usuário o valor antigo e atual de X
+* Informe para o usuário o valor antigo e atual de Y
+* Finalize o sistema
+---------------------------------------------------
+QUESTÃO 05:
+
+
+
+
+Variáveis
+Salário do funcionário atual: SA
+Percentual de reajuste %: PR
+Salário final: SF
+
+
+* Iniciar sistema
+* Solicite o salário:
+* Caso seja informado algo diferente de números, indique erro: “Apenas números"
+* Armazene esse dado informado na variável: SA
+* Solicite Percentual: 
+* Caso seja informado algo diferente de números, indique erro: “Apenas números"
+* Armazene esse dado informado na variável: PR
+* Faça a operação: SA+PR = SF
+* Retorne o valor de “SF”
+* Mostrar a seguinte mensagem: "Salário atual: (SA) | Reajuste: (PR) | Salário final: (SF)”
+* Pergunte se o usuário deseja fazer outra operação, se sim retorne para linha 02, se não finalize.
+
+
+---------------------------------------------------
