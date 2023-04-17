@@ -134,12 +134,31 @@ public class Aula {
         
         */
         
-        int num1 = 10;
+       int num1 = 6;
         int num2 = 2;    
         int quant1 = num1 * num2;
         int quant2 = num1 / num2;
+        
     System.out.println("Teste com multiplicação: " + quant1);
     System.out.println("Teste com divisão: " + quant2);
+     
+    
+        num1 += num2;
+    System.out.println("Somar e atribuir: " + num1);
+    
+    
+        num1 -= num2;
+    System.out.println("Subtrair e atribuir: " + num1);
+    
+        num1 *= num2;
+    System.out.println("Multiplicar e atribuir: " + num1);
+    
+        num1 /= num2;
+    System.out.println("Divir e atribuir: " + num1);
+        
+        num1 %= num2;
+    System.out.println("Porcentagem e atribuir: " + num1);
+    
         
 
     }
