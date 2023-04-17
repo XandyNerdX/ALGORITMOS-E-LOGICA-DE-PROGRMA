@@ -130,7 +130,12 @@ public class Aula {
            i++;
       System.out.println(i);     
       
-      
+        int num1 = 20;
+        int num2 = 5;    
+        int quant = num1 / num2;
+        
+     System.out.println(quant);
+
         
 
     }
