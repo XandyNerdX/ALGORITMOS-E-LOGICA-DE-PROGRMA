@@ -134,31 +134,95 @@ public class Aula {
         
         */
         
-       int num1 = 6;
+          /*
+        Testando atribuição de variavel
+        */
+       
+        int i = 20;
+           i = 25;
+           i = 5 + 3;
+           i = i + 1;
+           i += 1;
+           i++;
+      System.out.println(i);     
+      
+      //Variaveis:
+      
+        int num1 = 6;
         int num2 = 2;    
+        
+     //Calculos:
+        
         int quant1 = num1 * num2;
         int quant2 = num1 / num2;
+        
         
     System.out.println("Teste com multiplicação: " + quant1);
     System.out.println("Teste com divisão: " + quant2);
      
+    //Soma:
     
         num1 += num2;
     System.out.println("Somar e atribuir: " + num1);
     
+    //Subtração:
     
         num1 -= num2;
     System.out.println("Subtrair e atribuir: " + num1);
     
+    //Soma:
+    
         num1 *= num2;
     System.out.println("Multiplicar e atribuir: " + num1);
+    
+    //Divisão:
     
         num1 /= num2;
     System.out.println("Divir e atribuir: " + num1);
         
+    //Porcentagem:
+    
         num1 %= num2;
     System.out.println("Porcentagem e atribuir: " + num1);
     
+    
+    //Operador de modulo
+    ''
+       int mod;
+       
+       mod = num1 % num2;
+       mod = 1;
+    
+        System.out.println("Operador de Módulo: " + mod);
+        
+        //Operadores de Acréscimo e Decréscimo (++ e --)
+        
+        //A maneira longa
+        
+        // ++
+        
+        num1 = num1 + 1;
+    System.out.println("Operadores de Acréscimo e Decréscimo (maneira longa) --: " + num2);
+        
+        // --
+    
+        num1 = num1 - 1;
+    System.out.println("Operadores de Acréscimo e Decréscimo (maneira longa) ++: " + num1);
+     
+        
+        //A maneira curta
+        
+        //++
+        
+        num1++;
+    System.out.println("Operadores de Acréscimo e Decréscimo (maneira curta) ++: " + num1);
+    
+    // -- 
+    
+        num1--;
+    System.out.println("Operadores de Acréscimo e Decréscimo (maneira curta) ++: " + num1);
+
+        
         
 
     }
