@@ -128,14 +128,18 @@ public class Aula {
            i = i + 1;
            i += 1;
            i++;
-      System.out.println(i);     
-      
-        int num1 = 20;
-        int num2 = 5;    
-        int quant = num1 / num2;
         
-     System.out.println(quant);
-
+        /*
+            Aula dia 17/04/2023
+        
+        */
+        
+        int num1 = 10;
+        int num2 = 2;    
+        int quant1 = num1 * num2;
+        int quant2 = num1 / num2;
+    System.out.println("Teste com multiplicação: " + quant1);
+    System.out.println("Teste com divisão: " + quant2);
         
 
     }
