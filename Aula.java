@@ -118,23 +118,10 @@ public class Aula {
             
         boolean Hacker1337 = true;
             
-       /*
-        Testando atribuição de variavel
-        */
-       
-       int i = 20;
-           i = 25;
-           i = 5 + 3;
-           i = i + 1;
-           i += 1;
-           i++;
+    /*
+        AULA DIA 17/04/2023
+    */
         
-        /*
-            Aula dia 17/04/2023
-        
-        */
-        
-          /*
         Testando atribuição de variavel
         */
        
