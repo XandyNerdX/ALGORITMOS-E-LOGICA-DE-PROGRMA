@@ -122,9 +122,6 @@ public class Aula {
         AULA DIA 17/04/2023
     */
         
-        Testando atribuição de variavel
-        */
-       
         int i = 20;
            i = 25;
            i = 5 + 3;
@@ -174,7 +171,7 @@ public class Aula {
     
     
     //Operador de modulo
-    ''
+    
        int mod;
        
        mod = num1 % num2;
@@ -208,9 +205,60 @@ public class Aula {
     
         num1--;
     System.out.println("Operadores de Acréscimo e Decréscimo (maneira curta) ++: " + num1);
-
+    
+    /*
+        Mais sobre Operadores de Acréscimo e Decréscimo
+    */
+          int id = 6;
+        System.out.println("++variavel: " + ++id);
+        System.out.println("--variavel: " + --id);
+        System.out.println("variavel++: " + id++);
+        System.out.println("variavel--: " + id--);
         
         
+        /*        
+             Operadores de acrescimo e Decrescimo (++ e --)    
+        */
+        
+            int count = 15 ;
+            int a1, b1, c1, d1;
+                a1 = count++; 
+                b1 = count--;
+                c1 = ++count;
+                d1 = count;
+        System.out.println(a1 + ", " + b1 + ", " + c1 + ", " + d1);    
+        
+        /*
+            Indução ao Erro da Divisão de Inteiros
+        */
+        
+        //Usando float
+        
+            float num03 = 9;
+            float num04 = 4;
+        System.out.println("Resultado da Divisão: " + num03 / num04);
+        
+        //Usando double
+        
+            double num05 = 9/5;
+        System.out.println("Resultado da divisão usando doable: " + num05);
+        
+        //Indução ao Erro em double
+        
+            double num07 = 9/2;
+        System.out.println("Indução ao erro em Double: " + num07);
+            
+        //Expressão sem parênteses...
+        
+        int num08 = 10 + 20 + 30 / 3; // Resultado 40
+        int num09 = 10 + 20 + ( 30 / 3);  // Resultado 40
+        int num10 = (10 + 20 +  30) / 3; // Resultado 20 
+        System.out.println("Resultado 01: " + num08 + "\nResultado02: " + num09 + "\nResultado03: "  + num10);
+   
+        //Resultado e 34 ou 9
+        
+        int num11 = 25 - 5 * 4 / 2 -10 + 4;
+        System.out.println("Resultado 34 ou 9: " + num11);
 
     }
  
