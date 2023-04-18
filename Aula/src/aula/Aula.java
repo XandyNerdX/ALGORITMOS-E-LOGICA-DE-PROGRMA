@@ -259,7 +259,7 @@ public class Aula {
         
         int num11 = 25 - 5 * 4 / 2 -10 + 4;
         System.out.println("Resultado 34 ou 9: " + num11);
-
+ 
     }
  
     
