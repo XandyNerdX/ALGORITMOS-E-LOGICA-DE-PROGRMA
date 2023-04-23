@@ -40,7 +40,7 @@ public class Exercicios_Sesao04_Orancle {
 
             System.out.print("Dado 1: " + dado1);
             System.out.print("Dado 2: " + dado2);
-            System.out.print("Soma dos dados: " + soma);
+            System.out.print("Soma dos dados: " + soma01);
 
         }
        
