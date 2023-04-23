@@ -79,6 +79,10 @@ public class Exercicios_Sesao04_Orancle {
        System.out.print("Informe seu nome por completo: ")
        String nome;
         
+            String primeironome = str.substring(primeironome + 1);
+            String ultimonome = str.substring(0, ultimonome);
+            String resultado = ultimonome + ", " + primeironome;
+
         System.out.print("O seu nome e: ")
 
 
