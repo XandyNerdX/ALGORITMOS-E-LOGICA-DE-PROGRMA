@@ -12,17 +12,29 @@ public class Exercicios_Sesao04_Orancle {
     */
 
     //⦁	Converte a temperatura fornecida de Fahrenheit para Celsius.
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("a TEMPERATURA EM Fahrenheit: ");
-        int f = scanner.nextInt();
-        System.out.println("Temperatura em Fahrenheit: " + (f-32)* 5/9);
+    
 
+    public static void main(String[] args) {
+        System.out.println("-------------------------------------------------------------------------------------");
+        System.out.println("|             Converte a temperatura fornecida de Fahrenheit para Celsius.          | ");
+        System.out.println("-------------------------------------------------------------------------------------");
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Informe a temperatura em Fahrenheit: ");
+        int f = scanner.nextInt();
+        System.out.println("Temperatura em Grau celsius: " + (f-32)* 5/9);
+
+        
+        
         //⦁	Calcula o tamanho da hipotenusa de um triângulo dado o comprimento de seus lados.
-        System.out.print("Comprimento do primeiro cateto: ");
+        System.out.println("-------------------------------------------------------------------------------------");
+        System.out.println("| Calcula o tamanho da hipotenusa de um triângulo dado o comprimento de seus lados  | ");
+        System.out.println("-------------------------------------------------------------------------------------");
+        
+        System.out.print("Informe comprimento do primeiro cateto: ");
         double cateto1 = scanner.nextDouble();
 
-        System.out.print("Comprimento do segundo cateto: ");
+        System.out.print("Informe comprimento do segundo cateto: ");
         double cateto2 = scanner.nextDouble();
 
         double hipotenusa = Math.sqrt(cateto1*cateto1 + cateto2*cateto2);
@@ -30,7 +42,9 @@ public class Exercicios_Sesao04_Orancle {
 
        
        
-       //3. Simula o giro de dois dados de seis lados e exibe a soma deles. 
+        System.out.println("\n-------------------------------------------------------------------------------------");
+        System.out.println("|                    Gera um numero aleatorio entre 1 e 6                           | ");
+        System.out.println("-------------------------------------------------------------------------------------");
 
 
             Random random = new Random();
@@ -38,6 +52,9 @@ public class Exercicios_Sesao04_Orancle {
                 int dado2 = random.nextInt(6) + 1;
                 int soma01 = dado1 + dado2;
 // gera um número aleatório entre 1 e 6
+
+      
+
 
             System.out.print("\n Dado 1: " + dado1);
             System.out.print("\n Dado 2: " + dado2);
