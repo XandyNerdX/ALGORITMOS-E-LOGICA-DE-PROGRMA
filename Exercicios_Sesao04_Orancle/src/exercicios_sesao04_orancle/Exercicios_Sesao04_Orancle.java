@@ -39,9 +39,9 @@ public class Exercicios_Sesao04_Orancle {
                 int soma01 = dado1 + dado2;
 // gera um número aleatório entre 1 e 6
 
-            System.out.print("Dado 1: " + dado1);
-            System.out.print("Dado 2: " + dado2);
-            System.out.print("Soma dos dados: " + soma01);
+            System.out.print("\n Dado 1: " + dado1);
+            System.out.print("\n Dado 2: " + dado2);
+            System.out.print("\n Soma dos dados: " + soma01);
 
         }
        
@@ -63,4 +63,3 @@ public class Exercicios_Sesao04_Orancle {
 
 
     }
-}
