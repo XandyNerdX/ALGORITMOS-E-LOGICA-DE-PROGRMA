@@ -49,15 +49,16 @@ public class Exercicios_Sesao04_Orancle {
 
     //⦁	Calcula o tamanho da hipotenusa de um triângulo dado o comprimento de seus lados.
 
-    Scanner scanner = new Scanner(System.in);
-        System.out.PRINT.("Comprimento do primeiro cateto: ");
-        double cateto1 = scanner.nextInt();
-        System.out.PRINT.("Comprimento do segundo cateto: ");
-        double cateto2 = scanner.nextInt();
-        double hipotenusa = cateto1*cateto1 + cateto2*cateto*2;
+         Scanner scanner = new Scanner(System.in);
+            System.out.print("Comprimento do primeiro cateto: ");
+                double cateto1 = scanner.nextInt();
+            
+            System.out.print("Comprimento do segundo cateto: ");
+                double cateto2 = scanner.nextInt();
+            
+            double hipotenusa = Math.sqrt(cateto1*cateto1 + cateto2*cateto2);
+                System.out.print("Hipotenusa: " + hipotenusa);
 
-
-        System.out.print("Hipotenusa: " + hipotenusa);
 
 
 
