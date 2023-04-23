@@ -26,5 +26,40 @@ public class Exercicios_Sesao04_Orancle {
 
         double hipotenusa = Math.sqrt(cateto1*cateto1 + cateto2*cateto2);
         System.out.print("Hipotenusa: " + hipotenusa);
+
+       
+       
+       //3. Simula o giro de dois dados de seis lados e exibe a soma deles. 
+
+        public static void main(string[] args) {
+            Random random = new Random();
+                int dado1 = random.nextInt(6) + 1;
+                int dado2 = random.nextInt(6) + 1;
+                int soma01 = dado1 + dado2;
+// gera um número aleatório entre 1 e 6
+
+            System.out.print("Dado 1: " + dado1);
+            System.out.print("Dado 2: " + dado2);
+            System.out.print("Soma dos dados: " + soma);
+
+        }
+       
+       
+       
+        //Problema 2: Processando um nome
+
+        /*
+        Visão Geral
+
+                Neste exercício, você desenvolverá um programa java que processa um nome inserido pelo usuário. 
+                O programa faz o seguinte:
+                Lê o primeiro e o último nomes (lê uma linha inteira como uma única string) e imprime o último nome 
+                seguido de uma vírgula e da primeira inicial. (Considere que o usuário digite um nome válido.) 
+
+        */
+
+       
+
+
     }
 }
