@@ -60,7 +60,7 @@ public class Exercicios_Sesao04_Orancle {
             System.out.print("\n Dado 2: " + dado2);
             System.out.print("\n Soma dos dados: " + soma01);
 
-        }
+        
        
        
        
@@ -76,7 +76,12 @@ public class Exercicios_Sesao04_Orancle {
 
         */
 
+       System.out.print("Informe seu nome por completo: ")
+       String nome;
+        
+        System.out.print("O seu nome e: ")
+
+
+  }
        
-
-
     }
