@@ -1,5 +1,6 @@
 package exercicios_sesao04_orancle;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Exercicios_Sesao04_Orancle {
@@ -31,7 +32,7 @@ public class Exercicios_Sesao04_Orancle {
        
        //3. Simula o giro de dois dados de seis lados e exibe a soma deles. 
 
-        public static void main(string[] args) {
+
             Random random = new Random();
                 int dado1 = random.nextInt(6) + 1;
                 int dado2 = random.nextInt(6) + 1;
