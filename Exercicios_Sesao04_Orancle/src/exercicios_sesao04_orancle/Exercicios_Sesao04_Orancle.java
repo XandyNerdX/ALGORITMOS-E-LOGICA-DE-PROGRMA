@@ -1,20 +1,43 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package exercicios_sesao04_orancle;
+/* package exercicios_sesao04_orancle;
 
-/**
- *
- * @author Alexandre Silva
- */
+import java.util.Scanner;
+
 public class Exercicios_Sesao04_Orancle {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Digite um número inteiro: ");
+        int numero = scanner.nextInt();
+        System.out.println("O número digitado foi: " + numero);
     }
-    
+
 }
+*/
+ package exercicios_sesao04_orancle;
+
+import java.util.Scanner;
+
+public class Exercicios_Sesao04_Orancle {
+
+    public static void main(Stri10
+    ng[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("a TEMPERATURA EM Fahrenheit: ");
+        int f = scanner.nextInt();
+        int c;
+
+        c = 5 / 9 * (f - 32);
+
+        System.out.println("Temperatura em Fahrenheit " + c);
+        
+
+               //temperatura 
+
+        int f = 1000;
+        System.out.println("celsius: " + (f-32)* 5/9);
+
+    }
+
+}
+
+
