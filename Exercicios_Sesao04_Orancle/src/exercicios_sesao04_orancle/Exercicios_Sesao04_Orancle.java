@@ -76,15 +76,22 @@ public class Exercicios_Sesao04_Orancle {
 
         */
 
-       System.out.print("Informe seu nome por completo: ");
-       String nome = scanner.nextLine();
-       
-        int indiceUltimoEspaco = nome.lastIndexOf(" ");
-            String ultimonome = nome.substring(0, indiceUltimoEspaco);
-            String primeironome = nome.substring(indiceUltimoEspaco + 1);
-            String resultado = ultimonome + ", " + primeironome;
 
-        System.out.print("O seu nome e: " + resultado);
+        System.out.print("Informe seu nome por completo: ");
+        String nome = scanner.nextLine();
+
+            int posicaoUltimoEspaco = nome.lastIndexOf(" ");
+            if (posicaoUltimoEspaco == -1) {
+        System.out.println("Nome invalido.");
+        
+            } else {
+                
+                String primeiroNome = nome.substring(0, posicaoUltimoEspaco);
+                String ultimoNome = nome.substring(posicaoUltimoEspaco + 1);
+                String resultado = ultimoNome + ", " + primeiroNome;
+
+        System.out.println("O seu nome é: " + resultado);
+}
 
 
   }
