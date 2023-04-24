@@ -76,6 +76,9 @@ public class Exercicios_Sesao04_Orancle {
 
         */
 
+        System.out.println("\n-------------------------------------------------------------------------------------");
+        System.out.println("|                    Processando um nome                                             | ");
+        System.out.println("-------------------------------------------------------------------------------------");
 
         System.out.print("Informe seu nome por completo: ");
         String nome = scanner.nextLine();
