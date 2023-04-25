@@ -8,15 +8,16 @@ public class Input04 {
         sc.nextLine();
         System.out.println(sc.nextLine());
 
+        String line = sc.nextLine();
+        while (!line.contains("BlueBumper")); {
+            line = sc.next();
+        }
+            System.out.println(line);
+
+        int xPosicao = sc.nextInt();
+        int yPosicao = sc.nextInt();
         
-        
-        //Does this line contain "BlueBumper"?
-        System.out.println(sc.findInLine("BlueBumper"));
-        //Store the next two numbers as xPosition and yPosition
-        //Print these positions
-        
-        
-        System.out.println("X: "        +", Y: "        );
+        System.out.println("X: "        " + xPosicao + "Y: " + yPosicao);
         sc.close();
     }    
 }

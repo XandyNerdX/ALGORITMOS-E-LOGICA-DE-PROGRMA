@@ -1,10 +1,37 @@
+<<<<<<< HEAD
+ package exercicios_sesao04_orancle;
+=======
 package exercicios_sesao04_orancle;
+>>>>>>> 8277c46020d8928317caa3967a8790ee92fa78ef
 
-import java.util.Random;
+<<<<<<< HEAD
 import java.util.Scanner;
 
+=======
+import java.util.Random;;
+import java.util.Scanner;
+
+>>>>>>> 8277c46020d8928317caa3967a8790ee92fa78ef
 public class Exercicios_Sesao04_Orancle {
 
+<<<<<<< HEAD
+    /*
+    Formula:
+
+        int f = 1000;
+        System.out.println("celsius: " + (f-32)* 5/9);
+    */
+    
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+            System.out.print("a TEMPERATURA EM Fahrenheit: ");
+            int f = scanner.nextInt();
+            System.out.println("Temperatura em Fahrenheit: " + (f-32)* 5/9);
+
+    }
+   }
+=======
     /*
     Formula:
         int f = 1000;
@@ -95,8 +122,15 @@ public class Exercicios_Sesao04_Orancle {
 
         System.out.println("O seu nome é: " + resultado);
 }
+>>>>>>> 8277c46020d8928317caa3967a8790ee92fa78ef
 
+<<<<<<< HEAD
+
+
+=======
 
   }
        
     }
+
+>>>>>>> 8277c46020d8928317caa3967a8790ee92fa78ef
