@@ -17,7 +17,7 @@ public class Input04 {
         int xPosicao = sc.nextInt();
         int yPosicao = sc.nextInt();
         
-        System.out.println("X: "        " + xPosicao + "Y: " + yPosicao);
+        System.out.println("X: " + xPosicao + ", Y: " + yPosicao);
         sc.close();
     }    
 }
