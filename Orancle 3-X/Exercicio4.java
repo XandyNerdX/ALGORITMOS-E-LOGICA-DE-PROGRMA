@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Exercico4 {
+public class Exercicio4 {
     public static void main(String[] args){
-        Scanner sc = new Scanner(javac.class.getResourceAsStream("input04text.txt"));      
+        Scanner sc = new Scanner(Exercicio4.class.getResourceAsStream("input04text.txt"));      
         
         //Edit these lines to advance the scanner
         sc.nextLine();
@@ -17,7 +17,7 @@ public class Exercico4 {
         int xPosicao = sc.nextInt();
         int yPosicao = sc.nextInt();
         
-        System.out.println("X: " + xPosicao + ", Y: " + yPosicao);
+        System.out.println("X:" + xPosicao + ", Y: " + yPosicao);
         sc.close();
     }    
 }

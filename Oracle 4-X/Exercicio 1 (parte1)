@@ -1,0 +1,11 @@
+public class Aniversario {
+    
+    int pessoas = 8;
+    double totalconta = 0;
+    double imposto = 5;
+    double gorjeta = 15;
+
+    public static void main(String[] args) {
+
+    }
+}
