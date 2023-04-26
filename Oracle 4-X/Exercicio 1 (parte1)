@@ -20,11 +20,24 @@ public class Aniversario {
         System.out.println(total3);
 
         double pessoa4 = 9.6;
-        double pessoa5 = 8.4;      
+        double total3 = pessoa4(1 + imposto + gorjeta);
+        System.out.println(total4);
+
+        double pessoa5 = 8.4; 
+        double total3 = pessoa5(1 + imposto + gorjeta);
+        System.out.println(total5);
+        
         double pessoa6 = 18.0;
+        double total3 = pessoa6(1 + imposto + gorjeta);
+        System.out.println(total6);
+
         double pessoa7 = 13.2;
+        double total3 = pessoa7(1 + imposto + gorjeta);
+        System.out.println(total7);
+
         double pessoa8 = 36.0;  
- 
+        double total3 = pessoa8(1 + imposto + gorjeta);
+        System.out.println(total8);
 
     }
 }
