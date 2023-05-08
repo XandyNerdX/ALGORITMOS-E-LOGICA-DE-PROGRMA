@@ -1,20 +1,19 @@
-<<<<<<< HEAD
- package exercicios_sesao04_orancle;
-=======
-package exercicios_sesao04_orancle;
->>>>>>> 8277c46020d8928317caa3967a8790ee92fa78ef
+//<<<<<<< HEAD
+ package teste;
+//=======
 
-<<<<<<< HEAD
+//>>>>>>> 8277c46020d8928317caa3967a8790ee92fa78ef
+
+//<<<<<<< HEAD
+
+//=======
+import java.util.Random;
 import java.util.Scanner;
 
-=======
-import java.util.Random;;
-import java.util.Scanner;
-
->>>>>>> 8277c46020d8928317caa3967a8790ee92fa78ef
+//>>>>>>> 8277c46020d8928317caa3967a8790ee92fa78ef
 public class Exercicios_Sesao04_Orancle {
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
     /*
     Formula:
 
@@ -23,15 +22,11 @@ public class Exercicios_Sesao04_Orancle {
     */
     
     public static void main(String[] args) {
-        
-        Scanner scanner = new Scanner(System.in);
-            System.out.print("a TEMPERATURA EM Fahrenheit: ");
-            int f = scanner.nextInt();
-            System.out.println("Temperatura em Fahrenheit: " + (f-32)* 5/9);
 
-    }
-   }
-=======
+
+    
+   
+//=======
     /*
     Formula:
         int f = 1000;
@@ -39,9 +34,8 @@ public class Exercicios_Sesao04_Orancle {
     */
 
     //⦁	Converte a temperatura fornecida de Fahrenheit para Celsius.
+           
     
-
-    public static void main(String[] args) {
         System.out.println("-------------------------------------------------------------------------------------");
         System.out.println("|             Converte a temperatura fornecida de Fahrenheit para Celsius.          | ");
         System.out.println("-------------------------------------------------------------------------------------");
@@ -122,15 +116,15 @@ public class Exercicios_Sesao04_Orancle {
 
         System.out.println("O seu nome é: " + resultado);
 }
->>>>>>> 8277c46020d8928317caa3967a8790ee92fa78ef
+//>>>>>>> 8277c46020d8928317caa3967a8790ee92fa78ef
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
 
 
-=======
+//=======
 
   }
        
     }
 
->>>>>>> 8277c46020d8928317caa3967a8790ee92fa78ef
+//>>>>>>> 8277c46020d8928317caa3967a8790ee92fa78ef
