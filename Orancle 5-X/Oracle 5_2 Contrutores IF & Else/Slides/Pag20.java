@@ -9,5 +9,10 @@ public class Pag20 {
         } // fim do if
         System.out.println("Marquei: " + numberOfGoals + " " + s);
 
+        int numberOfGoals01 = 1;
+
+        System.out.println("Marquei " + numberOfGoals01 + " "
+                + (numberOfGoals01 == 1 ? "gol" : "gols"));
+
     }// fim do metodo main
 }
