@@ -8,7 +8,13 @@ public class Ex03 {
         int idade = keyboard.nextInt();
         int tarifa;
 
-        System.out.println("Idade:18 " + idade + "\n"
-                + (idade == 11 ? "Tarifa: U$3" : "Tarifa: U$5"));
+        if (idade <= 11 || idade >= 65) {
+            tarifa = 3;
+            System.out.println("Idade: " + idade + "\n" + "Tarifa: " + tarifa);
+        } else if (idade <= 64) {
+            tarifa = 5;
+            System.out.println("Idade: " + idade + "\n" + "Tarifa: " + tarifa);
+        }
+
     }
 }
