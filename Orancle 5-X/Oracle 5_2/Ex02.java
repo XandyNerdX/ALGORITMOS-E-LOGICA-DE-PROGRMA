@@ -8,8 +8,8 @@ public class Ex02 {
         } else {
             x *= y;
         }
-        System.out.println("After if stmt, x = " + x);
+        System.out.println("Após if stmt, x =" + x);
 
-        // Use a ternary operator to perform the same logic as above.
+        // Use um operador ternário para executar a mesma lógica acima.
     }
 }
