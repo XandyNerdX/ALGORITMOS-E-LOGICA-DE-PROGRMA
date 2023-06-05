@@ -14,7 +14,7 @@ public class Exercicio2 {
         } else if (corsinal == 3) {
             System.out.println("Amarelo, reduza a velocidade e pare!");
         } else {
-            System.out.println();
+            System.out.println("Numero não encotrado!");
         }
 
     }
