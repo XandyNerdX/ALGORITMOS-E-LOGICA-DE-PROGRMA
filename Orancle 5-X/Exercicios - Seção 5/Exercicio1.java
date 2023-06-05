@@ -27,7 +27,7 @@ public class Exercicio1 {
             System.out.println("A cor correspondente é Vermelho");
 
         } else {
-            System.out.println("O comprimento de onda fornecido está fora do espectro visível.");
+            System.out.println("O valor informado não corresponde a nenhuma cor do sinal! ");
         }
 
     }
