@@ -3,17 +3,11 @@ import java.util.Scanner;
 public class Ex02 {
     public static void main(String[] args) {
 
-        System.out.println("Esse programa soma 10 numeros!");
+        System.out.println("Digite algum numero para iniciar!");
 
         Scanner console = new Scanner(System.in);
         int sum = 0;
-
-        while (number != 1) {
-            System.out.println("Digite 1 para iniciar");
-            int number = console.nextInt();
-            number = console.nextInt();
-            sum += number;
-        }
+        int number = console.nextInt();1
 
         for (int i = 1; i <= 10; i++) {
             System.out.print("Digite o número " + i + ": ");
