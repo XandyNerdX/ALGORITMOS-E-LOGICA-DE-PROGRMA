@@ -7,7 +7,7 @@ public class Pag11 {
             num = num + 1;
             System.out.println("Numero: " + num);
         }
-        System.out.println("Contamos ate 10! Viva!");
+        System.out.println("Contamos ate 10! Viva!!");
     }
 
 }
