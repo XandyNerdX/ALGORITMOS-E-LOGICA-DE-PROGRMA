@@ -1,0 +1,22 @@
+Instruções de Loop
+
+O java fornece três tipos de loops:
+
+for
+while
+do-while
+
+
+pag 12 fala sobre loops
+pag 13 importante tmb
+pag 30 e 31 esse metodo e incoveniente de ser programado se você deseja adicionar 100 valores...
+pag 32 resolve esse problema, um loop for com variaveis de escopo diferente! 
+pag 37 forma diferente de usa loop, funciona mas aumenta a chance de Bugs..
+
+Sobre Capitulo:
+
+- Enteder os componentes do loop for padrão
+- Enteder como criar e usar um loop padrão
+- Entender o escopo de uma variavel
+- Entender tecnicas de depuração
+- Explicar como loops infinitos ocorrem em java
