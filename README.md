@@ -1,2 +1,0 @@
-# ALGORITMOS-E-LOGICA-DE-PROGRMA
- ALGORITMOS E LOGICA DE PROGRMAÇÃO (Sistema de informação - 2 Semestre)
