@@ -1,0 +1,16 @@
+Loop while: 
+
+Quando usar loop while?
+
+    O loop "while" é usado quando você precisa repetir um bloco de código enquanto uma determinada condição for verdadeira. Aqui estão algumas situações em que o loop "while" pode ser apropriado:
+
+        1 - Repetição baseada em uma condição inicial: Quando você deseja repetir um bloco de código com base em uma condição que é verificada antes da execução do bloco, o loop    "while" é adequado. Ele permite que você execute o bloco enquanto a condição for verdadeira e pare quando a condição se tornar falsa.
+
+        2 - Repetição com quantidade desconhecida: Se você não sabe previamente quantas vezes o bloco de código precisa ser repetido, mas possui uma condição que determina quando parar, o loop "while" é útil. Ele permite que você continue repetindo o bloco até que a condição especificada seja atendida.
+
+        3 - Entrada de dados até que uma condição seja satisfeita: Quando você está solicitando entradas de dados dos usuários e deseja continuar a solicitar até que uma condição específica seja satisfeita, o loop "while" é apropriado. Ele permite que você continue solicitando dados até que a condição seja atendida, como a inserção de um valor válido.
+
+        4 - Processamento até que uma condição seja alcançada: Se você precisa processar dados ou realizar uma tarefa até que uma determinada condição seja alcançada, o loop "while" pode ser usado. Por exemplo, você pode repetir um cálculo até que uma precisão desejada seja alcançada.
+
+Em resumo, o loop "while" é adequado quando você precisa repetir um bloco de código enquanto uma condição é verdadeira e não sabe previamente quantas vezes o loop será executado. Ele oferece flexibilidade ao permitir que você controle o fluxo com base em condições específicas. Certifique-se de que a condição será eventualmente falsa para evitar loops infinitos.
+
