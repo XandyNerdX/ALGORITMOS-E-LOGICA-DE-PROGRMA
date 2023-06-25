@@ -1,0 +1,40 @@
+package orancle7.pkg4;
+
+public class Prisioner {
+    // Fields
+    public double altura;
+    public Prisioner prisoneiro;
+    public String name;
+    public int sentence;
+    public boolean verifica;
+
+    // Construtor existente
+    public Prisioner(Prisioner p, String n, double a, int s, boolean v) {
+        prisoneiro = p;
+        name = n;
+        altura = a;
+        sentence = s;
+        verifica = v;
+
+        System.out.println("\nEste é um construtor\n");
+
+        PrisionTeste prisioneiro = new PrisionTeste();
+
+        System.out.println("Variable: " + p);
+        System.out.println("Nome: " + name);
+        System.out.println("Altura: " + altura);
+        System.out.println("Sentence: " + sentence);
+
+        verifica = prisioneiro instanceof PrisionTeste;
+        System.out.println(verifica);
+    }
+
+    // Construtor com argumento zero
+    public Prisioner() {
+        this(null, "", 0.0, 0, false);
+    }
+
+    public void think() {
+        System.out.println("Eu terei minha vingança.");
+    }
+}
