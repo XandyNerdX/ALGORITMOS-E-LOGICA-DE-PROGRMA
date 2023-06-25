@@ -79,7 +79,7 @@ public class Prisioner {
 
 
         public Cell(){
-            this("", false, 1234); //controla se a porta esta aberta ou fechada! 
+            this("", true, 1234); //controla se a porta esta aberta ou fechada! 
             //false --> Porta esta fecha!
             //true --> Porta esta aberta!   
     }
@@ -87,12 +87,7 @@ public class Prisioner {
         public void displayCell() {
         System.out.println("Cela: " + name);
 
-               
-        }
-    
-    public void openDoor(Cell cell) { //Abre e fecha a porta de acordo com codigo de segurança digitado pelo segurança!
-        
-      System.out.println("Digite o codigo de segurança da cela: ");
+     System.out.println("Digite o codigo de segurança da cela: ");
             
         Scanner console = new Scanner(System.in);
         int code = console.nextInt();
@@ -101,19 +96,33 @@ public class Prisioner {
           System.out.println("Estado da cela: " + (isOpen ? "Aberta" : "Fechada"));
             
           
-        if (verifica = code == codigoseguranca) { //Informa se a senha digitada esta correta ou errada!
-              verifica = true; //Senha correta
-              System.out.println("Senha correta."); 
-          } else {
-            verifica = false; //senha incorreta
-              System.out.println("Senha incorreta.");
-         } 
+        if (code != codigoseguranca) { //Informa se a senha digitada esta correta ou errada!
+           //fim do if
+
+                
+            if(isOpen){
+            isOpen = false; //senha incorreta
+               System.out.println("Codigo incorreto, fechando cela"); 
+               System.out.println("Estado da cela: " + (isOpen ? "Aberta" : "Fechada"));
+                if (isOpen) {
+                    isOpen = false; //cela estiver aberta permance 
+                    
+                    System.out.println("Estado da cela: " + (isOpen ? "Aberta" : "Fechada"));
+
+                } //fim do  if (isOpen) 
+                } //fim do if (code != codigoseguranca) {
+             else  {
+                System.out.println("Codigo incorreto. A cela permanece no estado atual");
+            }
+        }  //fim do code != codigoseguranca     
+           
+                
         
         
         if (code == codigoseguranca) {
                 if (isOpen) {
                     isOpen = false; //cela estiver aberta permance 
-                    System.out.println("Cela ja esta aberta!");
+                        System.out.println("Código correto. A cela permanece no estado atual.");
 
                 } else {
                     isOpen = true; // cela estiver fechada ela abre
@@ -122,29 +131,8 @@ public class Prisioner {
                     System.out.println("Estado da cela: " + (isOpen ? "Aberta" : "Fechada"));
                           } 
                 
-                } //fim do i 
-                
-         if (code != codigoseguranca) {
-                if (isOpen) {
-                    isOpen = false; //cela estiver aberta permance 
-                    System.out.println("Fechando cela");
-                    
-                    System.out.println("Estado da cela: " + (isOpen ? "Aberta" : "Fechada"));
+                } //fim do if
 
-                } else if (isOpen) {
-                    isOpen = true; // cela estiver fechada ela abre
-                    System.out.println("cela fechada");
-                  
-                          } else {
-                             System.out.println("Código incorreto. A cela permanece no estado atual.");
-
-                                  }
-                
-                
-                } //fim do i 
-                
- 
-        
             } //fim do cell
         
             } //fim do cell
