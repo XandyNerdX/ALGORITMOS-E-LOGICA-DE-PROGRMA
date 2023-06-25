@@ -1,0 +1,25 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package orancle7.pkg4;
+
+
+public class UIWheelLight {
+    // Campos
+    public UIWheel wheel;
+    public double rotation;
+    public boolean isLit;
+
+    // Construtor
+    public UIWheelLight(UIWheel w, double r, boolean l) {
+        wheel = w;
+        rotation = r;
+        isLit = l;
+
+  
+
+    } // fim Construtor                                     
+
+
+}// fim da classe UIWheelLigh
