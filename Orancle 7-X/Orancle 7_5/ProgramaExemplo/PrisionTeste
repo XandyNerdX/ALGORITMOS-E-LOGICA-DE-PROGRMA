@@ -1,0 +1,27 @@
+package orancle7.pkg4;
+
+public class PrisonTest {
+    public static void main(String[] args) {
+        Prisioner p01 = new Prisioner();
+        Cell c01 = new Cell();
+        Guard g01 = new Guard();
+       
+     
+        
+        p01.name = "Bubba";
+        p01.displayPrisoneiro();
+        
+        c01.setName("A1");
+        c01.displayCell();
+        c01.openDoor(c01);
+       
+        g01.name = "Boss Man";
+    }
+
+}
+
+//class cell
+
+
+        
+

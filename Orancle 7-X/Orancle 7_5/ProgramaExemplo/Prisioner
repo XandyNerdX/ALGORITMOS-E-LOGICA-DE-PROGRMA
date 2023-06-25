@@ -1,0 +1,160 @@
+package orancle7.pkg4;
+
+import java.util.Scanner;
+
+public class Prisioner {
+    // Fields
+    public double altura;
+    public Prisioner prisoneiro;
+    public String name;
+    public int sentence;
+    public boolean verifica;
+    
+    public String cell;
+    public boolean cellporta;
+    
+    
+
+    // Construtor existente
+    public Prisioner(Prisioner p, String n, double a, int s, boolean v) {
+        prisoneiro = p;
+        name = n;
+        altura = a;
+        sentence = s;
+        verifica = v;
+
+
+    }
+
+    // Construtor com argumento zero
+    public Prisioner() {
+        this(null, "", 0.0, 0, false); // Construtores Podem Chamar Outros Construtores
+        if (this.verifica) {
+            this.think();
+
+        }
+    }
+    
+
+    public void think() {
+        System.out.println("Eu terei minha vingança.");
+    }
+
+    public void displayPrisoneiro() {
+        System.out.println("Name: " + name);
+        System.out.println("Altura: " + altura);
+        System.out.println("Sentence: " + sentence);
+        
+
+        
+        verifica = prisoneiro == this.prisoneiro;
+        
+        System.out.println("Verificação: " + verifica);
+        
+    }
+
+//classe cell:
+    
+}  class Cell { //campos
+        private String name;
+        private boolean isOpen; //responsavel por abrir a porta, e fechar, por isso privado!
+        private int codigoseguranca;
+        private boolean verifica;
+
+        public Cell(String name, boolean isOpen, int codigoseguranca) { //construtor
+            this.name = name;
+            this.isOpen = isOpen;
+            this.codigoseguranca = codigoseguranca;
+            
+           
+        }//fim construtor
+        
+        public void setName(String name) { //Método Setter
+            this.name = name;
+        } //fim do método Setter
+
+        public boolean getIsOpen(){ //Método Getter
+            return isOpen;
+        }//fim do método getIsOpen
+
+
+        public Cell(){
+            this("", false, 1234); //controla se a porta esta aberta ou fechada! 
+            //false --> Porta esta fecha!
+            //true --> Porta esta aberta!   
+    }
+
+        public void displayCell() {
+        System.out.println("Cela: " + name);
+
+               
+        }
+    
+    public void openDoor(Cell cell) { //Abre e fecha a porta de acordo com codigo de segurança digitado pelo segurança!
+        
+      System.out.println("Digite o codigo de segurança da cela: ");
+            
+        Scanner console = new Scanner(System.in);
+        int code = console.nextInt();
+            System.out.println("=-=-=-=-=-= VERIFICANDO =-=-=-=-=-=");
+   
+          System.out.println("Estado da cela: " + (isOpen ? "Aberta" : "Fechada"));
+            
+          
+        if (verifica = code == codigoseguranca) { //Informa se a senha digitada esta correta ou errada!
+              verifica = true; //Senha correta
+              System.out.println("Senha correta."); 
+          } else {
+            verifica = false; //senha incorreta
+              System.out.println("Senha incorreta.");
+         } 
+        
+        
+        if (code == codigoseguranca) {
+                if (isOpen) {
+                    isOpen = false; //cela estiver aberta permance 
+                    System.out.println("Cela ja esta aberta!");
+
+                } else {
+                    isOpen = true; // cela estiver fechada ela abre
+                    System.out.println("abrindo cela.");
+                    
+                    System.out.println("Estado da cela: " + (isOpen ? "Aberta" : "Fechada"));
+                          } 
+                
+                } //fim do i 
+                
+         if (code != codigoseguranca) {
+                if (isOpen) {
+                    isOpen = false; //cela estiver aberta permance 
+                    System.out.println("Fechando cela");
+                    
+                    System.out.println("Estado da cela: " + (isOpen ? "Aberta" : "Fechada"));
+
+                } else if (isOpen) {
+                    isOpen = true; // cela estiver fechada ela abre
+                    System.out.println("cela fechada");
+                  
+                          } else {
+                             System.out.println("Código incorreto. A cela permanece no estado atual.");
+
+                                  }
+                
+                
+                } //fim do i 
+                
+ 
+        
+            } //fim do cell
+        
+            } //fim do cell
+  
+
+
+
+//classe guarda:
+
+class Guard {
+    public String name;
+    
+}
