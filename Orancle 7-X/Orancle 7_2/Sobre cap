@@ -16,8 +16,13 @@ A memória heap é amplamente utilizada em Java para armazenar objetos complexos
 flexibilidade necessária para criar e manipular objetos dinamicamente durante a execução do programa.
 
 
+Instanciar String, pagina 33 a 35
 
-
-
-
-
+Resumo
+•Nesta lição, você deverá ter aprendido a:
+−Entender as consequências na memória da instanciação de
+objetos
+−Entender referências a objetos
+−Entender a diferença entre a memória stack e a memória
+heap
+−Entender como as Strings são objetos especiais

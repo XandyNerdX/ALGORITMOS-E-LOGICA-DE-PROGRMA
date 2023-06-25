@@ -1,15 +1,17 @@
 public class Display {
     public static void main(String[] args) {
 
-        int x = 1; // Memoria Stack
-        int y = 2; // Memoria Stack
+        /*
+         * int x = 1; // Memoria Stack
+         * int y = 2; // Memoria Stack
+         */
 
         Prisoneiros bubba = new Prisoneiros();
         Prisoneiros twitch = new Prisoneiros();
 
         bubba = twitch; // Memoria stack
 
-        bubba.nome = "bubba";
+        bubba.nome = "Bubba";
         twitch.nome = "twitch";
 
         bubba.apelido = "bubba";
@@ -30,6 +32,12 @@ public class Display {
         twitch.display();
 
         System.out.println("" + "Endereço da memoria: " + twitch); // endereço de memoria
+
+        // Exercicio 03
+
+        String Bubba3 = new String("Bubba");
+        String twitch3 = new String("Twitch");
+        
 
     }
 }
