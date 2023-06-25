@@ -1,0 +1,55 @@
+package orancle7.pkg4.light;
+
+public class UIWheelLight {
+    // Campos
+    public UIWheel wheel;
+    public double rotation;
+    public boolean isLit;
+
+    // Construtor
+    public UIWheelLight(UIWheel w, double r) {
+        this(w, r, false);
+    }
+
+    public UIWheelLight(UIWheel w, double r, boolean l) {
+        wheel = w;
+        rotation = r;
+        isLit = l;
+    }
+
+    public void setPosition(double x, double y) {
+        // Fazer um cálculo
+    }
+
+    private static class UIWheel {
+        public UIWheel() {
+            // Construtor da classe interna UIWheel
+        }
+    }
+}
+
+class Calculator {
+    
+    
+    
+    public double sum(double num1) {
+        return num1;
+    }
+
+    public double sum(double num1, double num2) {
+        return num1 + num2;
+    }
+
+    public double sum(double num1, double num2, double num3) {
+        return num1 + num2 + num3;
+    }
+}
+
+class CalculatorTest {
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+        calc.sum(1, 2);
+        calc.sum(1, 2, 3);
+        calc.sum(1.5, 4.5);
+    }
+}
