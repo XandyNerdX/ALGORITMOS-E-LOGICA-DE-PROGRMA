@@ -22,10 +22,6 @@ public class Prisoneiros {
         System.out.println("Nome e apelido e o mesmo? " + verifica);
 
         // usando memoria stack para verificar
-
-        verifica = x == y;
-        System.out.println(verifica);
-
         // comparando objetos
 
     }

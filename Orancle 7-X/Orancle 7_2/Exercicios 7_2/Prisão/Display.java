@@ -1,6 +1,9 @@
 public class Display {
     public static void main(String[] args) {
 
+        int x = 1; // Memoria Stack
+        int y = 2; // Memoria Stack
+
         Prisoneiros bubba = new Prisoneiros();
         Prisoneiros twitch = new Prisoneiros();
 
@@ -19,9 +22,14 @@ public class Display {
         twitch.anoscondecao = 4;
 
         bubba.display();
+
+        System.out.println("" + "Endereço da memoria: " + bubba); // endereço de memoria
+
+        System.out.println(bubba == twitch); // Verdade!
+
         twitch.display();
 
-        System.out.println(bubba.nome); // Twitch
-        System.out.println(bubba == twitch); // Verdade!
+        System.out.println("" + "Endereço da memoria: " + twitch); // endereço de memoria
+
     }
 }
