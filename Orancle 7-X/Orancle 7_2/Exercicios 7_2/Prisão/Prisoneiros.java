@@ -5,6 +5,7 @@ public class Prisoneiros {
     public boolean verifica;
     public double altura;
     public double anoscondecao;
+    public int x = 1, y = 2;
 
     public void display() {
 
@@ -18,9 +19,14 @@ public class Prisoneiros {
         // comparando nomes, usando boolean
         verifica = nome == apelido;
 
-        System.out.println("Mesmo nome e apelido? " + verifica);
+        System.out.println("Nome e apelido e o mesmo? " + verifica);
 
-        // System.out.println(nome == apelido);
+        // usando memoria stack para verificar
+
+        verifica = x == y;
+        System.out.println(verifica);
+
+        // comparando objetos
 
     }
 }

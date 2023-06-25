@@ -1,0 +1,23 @@
+Memoria Stack e Heap Pag 25/26/27
+
+Memoria stack
+
+Ela é usada para armazenar os parâmetros e as variáveis locais dos métodos durante sua execução. A comparação de parâmetros ou variáveis é feita no código Java, 
+utilizando operadores de comparação, como "==", ">", "<", etc. A stack é responsável por manter essas informações disponíveis durante a execução do método e é 
+desalocada automaticamente quando o método termina sua execução.
+
+Memoria heap: 
+
+    A memória heap é uma área de memória compartilhada por todos os threads do programa e é gerenciada pelo coletor de lixo (garbage collector) do Java. 
+Ela permite a alocação dinâmica e desalocação automática de memória, tornando mais flexível o gerenciamento de objetos em tempo de execução.
+Na memória heap, os objetos são alocados usando a palavra-chave "new" e permanecem na memória até que não haja mais referências a eles. Quando um objeto não possui mais referências 
+válidas, o coletor de lixo identifica esses objetos como elegíveis para desalocação e libera automaticamente a memória ocupada por eles.
+A memória heap é amplamente utilizada em Java para armazenar objetos complexos, como instâncias de classes, arrays, estruturas de dados dinâmicas, entre outros. Ela fornece a 
+flexibilidade necessária para criar e manipular objetos dinamicamente durante a execução do programa.
+
+
+
+
+
+
+
