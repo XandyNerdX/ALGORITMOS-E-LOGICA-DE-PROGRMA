@@ -1,0 +1,29 @@
+Objetivos
+• Esta lição abrange os seguintes objetivos:
+−Entender valores padrão
+−Travar o programa com uma referência null
+−Entender o construtor padrão
+−Escrever um construtor que aceite argumentos
+−Inicializar campos com um construtor
+−Usar this como uma referência a objeto
+
+Resumo dos Construtores
+• São métodos especiais em uma classe
+• Têm o mesmo nome que a classe
+•Não têm um tipo de retorno (nem mesmo void)
+• São chamados uma única vez durante a instanciação
+do objeto
+• Podem aceitar argumentos
+• São usados para definir valores iniciais dos campos
+• Se você não criar seu próprio construtor, o Java
+fornecerá um construtor padrão com argumento zero
+
+
+Resumo
+•Nesta lição, você deverá ter aprendido a:
+−Entender valores padrão
+−Travar o programa com uma referência null
+−Entender o construtor padrão
+−Escrever um construtor que aceite argumentos
+−Inicializar campos com um construtor
+−Usar this como uma referência a objeto
