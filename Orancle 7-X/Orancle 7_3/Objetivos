@@ -1,0 +1,8 @@
+Objetivos
+• Esta lição abrange os seguintes objetivos:
+−Entender valores padrão
+−Travar o programa com uma referência null
+−Entender o construtor padrão
+−Escrever um construtor que aceite argumentos
+−Inicializar campos com um construtor
+−Usar this como uma referência a objeto
