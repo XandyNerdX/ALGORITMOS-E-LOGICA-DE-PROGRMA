@@ -3,6 +3,7 @@ package orancle7.pkg4;
 public class PrisionTeste {
     public static void main(String[] args) {
         Prisioner p = new Prisioner();
-    
+        p.printFields();
+        p.printFields(true);
     }
 }

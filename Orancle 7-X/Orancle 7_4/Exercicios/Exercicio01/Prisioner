@@ -15,26 +15,31 @@ public class Prisioner {
         altura = a;
         sentence = s;
         verifica = v;
-
-        System.out.println("\nEste é um construtor\n");
-
-        PrisionTeste prisioneiro = new PrisionTeste();
-
-        System.out.println("Variable: " + p);
-        System.out.println("Nome: " + name);
-        System.out.println("Altura: " + altura);
-        System.out.println("Sentence: " + sentence);
-
-        verifica = prisioneiro instanceof PrisionTeste;
-        System.out.println(verifica);
     }
 
     // Construtor com argumento zero
     public Prisioner() {
-        this(null, "", 0.0, 0, false);
+        this(null, "", 0.0, 0, false); // Construtores Podem Chamar Outros Construtores
+        if (this.verifica) {
+            this.think();
+        }
     }
 
     public void think() {
         System.out.println("Eu terei minha vingança.");
+    }
+
+    public void printFields() {
+        System.out.println("Name: " + name);
+        System.out.println("Altura: " + altura);
+        System.out.println("Sentence: " + sentence);
+        System.out.println("Verifica: " + verifica);
+    }
+
+    public void printFields(boolean callThink) {
+        printFields();
+        if (callThink) {
+            think();
+        }
     }
 }
