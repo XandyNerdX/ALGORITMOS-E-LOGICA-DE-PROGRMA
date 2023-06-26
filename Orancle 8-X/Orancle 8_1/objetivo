@@ -1,0 +1,7 @@
+Objetivos
+• Esta lição abrange os seguintes objetivos:
+−Criar e inicializar matrizes unidimensionais
+−Modificar um elemento de matriz
+−Percorrer uma matriz unidimensional usando um loop for
+−Identificar a causa de uma
+ArrayIndexOutOfBoundsException
