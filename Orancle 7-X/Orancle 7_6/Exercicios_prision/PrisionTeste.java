@@ -8,13 +8,13 @@ public class PrisonTest {
         Cell c01 = new Cell();
         Guard g01 = new Guard();
 
-        p01.prisonerCount(); // Quantidade de Prisoneiros (Usei o prisoneiro 01 ele fica em cima!)
+        p01.setprisonerCount();// Quantidade de Prisoneiros (Usei o prisoneiro 01 ele fica em cima!)
 
         p01.setName("Bubba", 1.75, 4); // acessado campo nome
-        p01.displayPrisoneiro(); // Chamando um método
+        p01.getDisplayPrisoneiro(p01);// Chamando um método
 
         p02.setName("twitch", 1.70, 3);
-        p02.displayPrisoneiro();
+        p02.getDisplayPrisoneiro(p02);
 
         c01.setName("A1"); // acessado campo nome
         c01.displayCell(); // Chamando um método
