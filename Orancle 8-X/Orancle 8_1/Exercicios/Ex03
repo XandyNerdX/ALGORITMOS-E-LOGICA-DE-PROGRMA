@@ -1,0 +1,41 @@
+package com.mycompany.orancle8;
+
+import java.util.Scanner;
+
+public class ComputeAvg {
+    
+
+    public static void main(String args[]) {
+        double scores[] = new double[5];
+        double sum = 0.0, avg = 0.0;
+        int aluno = 1; // Variavel estática
+        int numaluno; // // Variável de instância
+        int notaal = 0;
+        int numnota;
+        
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Insira as pontuações de 5 estudantes");
+        System.out.println("Aluno 0" + aluno + " Insira a nota: ");
+        
+        for (int i = 0; i < scores.length; i++) {
+            scores[i] = keyboard.nextInt();
+            aluno++;
+            numaluno = aluno;
+            System.out.println("Aluno 0" + aluno + " Insira a nota: ");
+        }//fim for
+
+        System.out.println("Exiba as pontuações de 5 estudantes");
+
+        for (int i = 0; i < scores.length; i++) {
+            notaal++;
+            numnota = notaal;
+            System.out.println("A pontuação do aluno 0" + notaal+ ": " + scores[i]);
+
+        }//fim for
+        for (int i = 0; i < scores.length; i++) {
+            sum = sum + scores[i];
+            avg = sum / scores.length;
+        }//fim for
+        System.out.println("A pontuação média da classe: " + avg);
+    }//fim do método main
+}//fim da classe StudentScores
