@@ -5,3 +5,5 @@ Objetivos
 −Percorrer uma matriz unidimensional usando um loop for
 −Identificar a causa de uma
 ArrayIndexOutOfBoundsException
+
+pag 34 a primeira costuma estourar memoria, ja a segunda opção do loop não costuma estourar memoria
